@@ -1,2 +1,6 @@
 markdown: rdiscount
+permalink: /:year/:month/:title.html
+url: http://poemcao.github.com
+author: Poemcao
 pygments: true
+
