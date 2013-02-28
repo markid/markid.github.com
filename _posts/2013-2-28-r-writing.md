@@ -1,3 +1,12 @@
+---
+layout: post
+title: R语法测试
+categories:
+- 技术
+tags:
+- R
+
+---
 Title
 ============
 
@@ -5,12 +14,10 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r}
+# 画出自带数据集cars #
+{% highlight r %}
 summary(cars)
-```
 
-You can also embed plots, for example:
-
-```{r fig.width=7, fig.height=6}
 plot(cars)
-```
+{% endhighlight %}
+![cars](/picture/cars.png)
